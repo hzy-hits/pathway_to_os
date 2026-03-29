@@ -1,0 +1,9 @@
+[package]
+name = "my-os"
+version = "0.1.0"
+edition = "2021"
+
+# 没有标准库，没有 main 函数——从零开始
+[profile.release]
+opt-level = 1       # 调试阶段别开太高优化，方便看汇编
+debug = true
