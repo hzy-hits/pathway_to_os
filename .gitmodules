@@ -1,0 +1,6 @@
+[submodule "xv6-ref"]
+	path = xv6-ref
+	url = https://github.com/mit-pdos/xv6-riscv.git
+[submodule "rcore-ref"]
+	path = rcore-ref
+	url = https://github.com/rcore-os/rCore-Tutorial-v3.git
